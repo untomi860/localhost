@@ -1,8 +1,14 @@
 <?php
 	namespace Project;
-	
-	class Controller
+	use \Core\Users\Data;
+	class Test
 	{
-		
+		public function __construct()
+		{
+			
+			$data1  = new Data('user1');
+			$data2  = new Data('user2');
+			$data3  = new Data('user3');
+		}
 	}
 ?>

@@ -1,14 +1,9 @@
 <?php
-	namespace Project;
-	use \Core\Users\Data;
-	class Test
+	namespace Users;
+	use \Core\Admin\Controller;
+	
+	class Page extends Controller
 	{
-		public function __construct()
-		{
-			
-			$data1  = new Data('user1');
-			$data2  = new Data('user2');
-			$data3  = new Data('user3');
-		}
+		
 	}
 ?>

@@ -1,5 +1,5 @@
 <?php
-	namespace Admin\View;
+	namespace Modules\shop\Cart;
 	
 	class Page
 	{

@@ -1,5 +1,5 @@
 <?php
-	namespace Modules\shop;
+	namespace Modules\shop\core\cart;
 	
 	class Cart
 	{
